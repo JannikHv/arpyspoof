@@ -19,7 +19,7 @@ setup(
     license='GPLv2',
     packages= [],
     scripts=['arpyspoof'],
-    install_requires=['scapy']
+    install_requires=['scapy', 'netifaces', 'ipaddress']
 )
 
 os.remove('arpyspoof')
