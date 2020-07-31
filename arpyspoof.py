@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import sys
 import os
 import time
@@ -75,7 +77,7 @@ def restore(router_ip, router_mac, target_ip, target_mac, interface):
 
 
 if __name__ == '__main__':
-    if os.geteuid() is not 0:
+    if os.geteuid() != 0:
         print('[-] You must be root.')
         sys.exit(1)
 

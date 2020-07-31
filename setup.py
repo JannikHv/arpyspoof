@@ -8,7 +8,7 @@ shutil.copyfile('arpyspoof.py', 'arpyspoof')
 
 setup(
     name='arpyspoof',
-    version='0.0.1',
+    version='0.0.2',
     description='Performs an ARP-spoofing attack',
     long_description='Performs an ARP-spoofing attack',
     url='https://github.com/JannikHv/arpyspoof',
